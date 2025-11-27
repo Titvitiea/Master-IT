@@ -4,61 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-
     <style>
         *{
-            margin: 0px;
-            padding: 0px;
             box-sizing: border-box;
-
+            margin: 0;
+            padding: 0;
         }
         body{
-            background-color: green;
-            font-family: 'Times New Roman', Times, serif;
+            background-color:lightblue;
+            background-size: cover;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             
         }
-        .Form{
-            background-color:rgb(215, 199, 199);
-            width: 500px;
-            margin-top: 16px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10px;
-            padding: 16px 8px;
-
+        .contact{
+            background-color:lightsalmon;
+            color:brown;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+            border-color: black;
+            border-style:none;
+            box-shadow: 30px 30px 50px grey;
+            border-radius: 20px 0px 20px 0px;
         }
-        .input{
-            display: block;
-            width:100%;
+        .contact h1, .contact p, .contact label{
+            text-align: center;
             margin-bottom: 10px;
-            padding: 8px;
+            color: black;
         }
-        .input:focus{
-            outline: 0;
-            border: 2px solid green;
+        .contact input, .contact textarea{
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
         }
         .btn{
+            background-color:aqua;
+            color:black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
             width: 100%;
-            padding: 10px 8px;
-            background-color:green;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .Go_back{
+            background-color: lightgray;
+            color:black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="Form">
-        <h2>Contact Form</h2>
-        <p>Contact us for more info</p>
-        <br>
-        <form>
-            <input type="text" class="input" placeholder="Enter your name">
-            <input type="Email" class="input" placeholder="Enter your Email">
-            <input type="Phone" class="input" placeholder="Enter your number (Optional)">
-            <input type="Website" class="input" placeholder="Enter your website (Optional)">
-            <textarea class="input" placeholder="Type your message"></textarea>
-            <br>
-            <button class="btn" type="submit">Sumit</button>
-        </form>
-        
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Please fill your information below:</p>
+        <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" placeholder="Please fill your name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="Please fill your Email"><br><br>
+            <label for="Phone">Phone number:</label><br>
+            <input type="Phone" placeholder="Please fill your number"><br><br>
+            <label for="Organization">Organization:</label><br>
+            <input type="Organization" placeholder="Your organization name"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="47" placeholder="Please fill your info"></textarea><br><br>
+            <button class="btn">Submit</button><br>
+            <div class="Go_back">
+
+                <button type="button" class="Back" onclick="'a href='../index.html'">Go Back</button>
+            </div>
 
     </div>
 </body>

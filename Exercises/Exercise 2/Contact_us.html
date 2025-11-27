@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store | Contact</title>
+
+    <style>
+        body { font-family: Arial; margin:0; background:#111; color:#eee; }
+        header { background:#222; padding:15px; display:flex; justify-content:space-between; }
+        header h1 { color:#0ff; }
+        nav a { color:#fff; margin-left:20px; text-decoration:none; }
+        nav a:hover { color:#0ff; }
+
+        .page-title { text-align:center; margin-top:30px; }
+
+        .contact-form {
+            width:400px;
+            margin:30px auto;
+            display:flex;
+            flex-direction:column;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding:10px;
+            margin-bottom:15px;
+            border-radius:5px;
+            border:none;
+            background:#222;
+            color:#eee;
+        }
+        .btn { padding:10px; background:#0ff; border:none; border-radius:5px; cursor:pointer; }
+
+        footer { background:#222; text-align:center; padding:20px; margin-top:40px; }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Gaming Store</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h2 class="page-title">Contact Us</h2>
+
+<form class="contact-form">
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Message</label>
+    <textarea rows="5" placeholder="Type message..."></textarea>
+
+    <button class="btn">Send</button>
+</form>
+
+<footer>
+    <p>© 2025 Gaming Store</p>
+</footer>
+
+</body>
+</html>

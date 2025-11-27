@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store | Products</title>
+
+    <style>
+        body { font-family: Arial; margin: 0; background:#111; color:#eee; }
+        header { background:#222; padding:15px; display:flex; justify-content:space-between; }
+        header h1 { color:#0ff; }
+        nav a { color:#fff; margin-left:20px; text-decoration:none; }
+        nav a:hover { color:#0ff; }
+
+        .page-title { text-align:center; margin-top:30px; }
+
+        .product-grid { display:flex; justify-content:center; gap:20px; padding:40px 20px; }
+        .product-card { background:#222; padding:15px; width:250px; border-radius:10px; text-align:center; }
+        .product-card img { width:100%; border-radius:10px; }
+
+        .btn { padding:10px; background:#0ff; border:none; border-radius:5px; margin-top:10px; cursor:pointer; }
+
+        footer { text-align:center; background:#222; padding:20px; margin-top:40px; }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Gaming Store</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h2 class="page-title">Our Products</h2>
+
+<div class="product-grid">
+
+    <div class="product-card">
+        <img src="images/desktop.jpg" alt="Desktop">
+        <h3>Gaming Desktop RTX 4070</h3>
+        <p>$1499</p>
+        <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/laptop.jpg" alt="Laptop">
+        <h3>Gaming Laptop i7 + RTX 4060</h3>
+        <p>$1299</p>
+        <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/handheld.jpg" alt="Handheld">
+        <h3>ROG Ally / Steam Deck</h3>
+        <p>$699</p>
+        <button class="btn">Buy Now</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 Gaming Store</p>
+</footer>
+
+</body>
+</html>
