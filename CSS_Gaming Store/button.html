@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+            
+        }
+        .Defaulf{
+            margin: 10px 10px 10px 10px;
+            padding: auto;
+        }
+        .btn{
+            background-color: lightslategray
+            border: none;
+            color: Black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            border: none;
+        }
+        .btn:hover{
+            background-color: gray;
+            color: black;
+        }
+
+        .brand-flex{
+            display: flex;
+
+        }
+        .btn-primary{
+            background-color: rgb(52, 112, 241);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-primary:hover{
+            background-color: navy;
+            color: white;
+        }
+        .btn-second{
+            background-color: rgb(241, 52, 137);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-second:hover{
+            background-color: rgb(199, 0, 80);
+            color: white;
+        }   
+        .btn-danger{
+            background-color: rgb(241, 52, 52);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-danger:hover{
+            background-color: darkred;
+            color: white;
+        }
+        .btn-ghost{
+            background-color: transparent;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .btn-ghost:hover{
+            background-color: gray;
+            color: white;
+        }
+        .outline_btn{
+
+            display: flex;
+        }
+        .btn-outline-primary{
+            background-color: transparent;
+            border: 2px solid rgb(52, 112, 241);
+            color: rgb(52, 112, 241);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-outline-primary:hover{
+            background-color: rgb(52, 112, 241);
+            color: white;
+        }
+        .btn-outline-second{
+            background-color: transparent;
+            border: 2px solid rgb(241, 52, 137);
+            color: rgb(241, 52, 137);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-outline-second:hover{
+            background-color: rgb(241, 52, 137);
+            color: white;
+        }
+        .btn-outline-danger{
+            background-color: transparent;
+            border: 2px solid rgb(241, 52, 52);
+            color: rgb(241, 52, 52);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .btn-outline-danger:hover{
+            background-color: rgb(241, 52, 52);
+            color: white;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="Default"><br>
+        <h2>Default Button</h2><br>
+        <button class="btn">Default</button><br>
+    </div>
+
+    <div class="brand"><br>
+        <h2>Brands Button</h2>
+        <br>
+        <div class="brand-flex">
+            <button class="btn-primary">Primary</button><br>
+            <button class="btn-second">Secondary</button><br>
+            <button class="btn-danger">Danger</button><br>
+            <button class="btn-ghost">Ghost</button><br>  
+        </div>
+        
+    </div><br>
+
+    <div class="Outline">
+        <h2>Outline Button</h2><br>
+        <div class="outline_btn">
+            <button class="btn-outline-primary">Primary</button><br>
+            <button class="btn-outline-second">Secondary</button><br>
+            <button class="btn-outline-danger">Danger</button><br>
+        </div>
+    </div>
+</body>
+</html>

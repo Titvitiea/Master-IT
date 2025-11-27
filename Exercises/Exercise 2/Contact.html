@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        body{
+            background-color: green;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .Form{
+            background-color:rgb(215, 199, 199);
+            width: 500px;
+            margin-top: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            padding: 16px 8px;
+
+        }
+        .input{
+            display: block;
+            width:100%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+        .input:focus{
+            outline: 0;
+            border: 2px solid green;
+        }
+        .btn{
+            width: 100%;
+            padding: 10px 8px;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <div class="Form">
+        <h2>Contact Form</h2>
+        <p>Contact us for more info</p>
+        <br>
+        <form>
+            <input type="text" class="input" placeholder="Enter your name">
+            <input type="Email" class="input" placeholder="Enter your Email">
+            <input type="Phone" class="input" placeholder="Enter your number (Optional)">
+            <input type="Website" class="input" placeholder="Enter your website (Optional)">
+            <textarea class="input" placeholder="Type your message"></textarea>
+            <br>
+            <button class="btn" type="submit">Sumit</button>
+        </form>
+        
+
+    </div>
+</body>
+</html>

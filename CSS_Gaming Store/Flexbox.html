@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .header{
+            height: 60px;
+            background-color: lightblue;
+            margin: 20px 20px auto auto;
+            width: 90%;
+            border-radius: 18px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: black;
+            margin-right: 8px;
+        }
+        .btn{
+            background-color: white;
+            border: 1px solid gray;
+            padding: 8px 16px;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn-blue{
+            background-color: rgb(52, 112, 241);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .container{
+            background-color: lightblue;
+            width: 90%;
+            margin: 20px 20px auto auto;
+            padding: 18px;
+        }
+        .grid-x2{
+            border-radius: 12px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 4px;
+
+        }
+        .box{
+            background-color: blueviolet;
+            padding: 12px;
+            height: 150px;
+            margin: 4px;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .grid-x3{
+            border-radius: 12px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr  1fr  1fr;
+            margin-bottom: 4px;
+        }
+        .grid-x4{
+            border-radius: 12px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr  1fr  1fr  1fr;
+            margin-bottom: 4px;
+        }
+        .footer{
+            background-color: lightblue;
+            padding: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+
+        <div class="brand">
+            <img src="./Image/gaming station logo.png" alt="gaming station logo" height="80px">
+        </div>
+        
+        <div class="navbar">
+            <a href="">How to use</a>I
+            <a href="">Pricing</a>I
+            <a href="">Contact Us</a>
+        </div>
+        
+        <div class="right">
+            <button class="btn">Sign up</button>
+            <button class="btn-blue">Log in</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="grid-x2">
+            <div class="box">A</div>
+            <div class="box">B</div>
+        </div>
+        <div class="grid-x3">
+            <div class="box">C</div>
+            <div class="box">D</div>
+            <div class="box">E</div>
+        </div>
+        <div class="grid-x4">
+            <div class="box">F</div>
+            <div class="box">G</div>
+            <div class="box">H</div>
+            <div class="box">I</div>
+            <div class="box">J</div>
+            <div class="box">K</div>
+            <div class="box">L</div>
+            <div class="box">M</div>
+        </div>
+        <div class="Footer">
+            <div class="box">Footer</div>
+        </div>
+    </div>
+
+</body>
+</html>

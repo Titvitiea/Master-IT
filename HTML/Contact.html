@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            h1{
+                color: bisque;
+                background-color: violet;
+                width: 285px;
+                margin: auto;
+                text-align: center;
+                
+            }
+            label{
+                font-size: larger;
+                font-style:oblique;
+            }
+            input{
+                width: 200px;
+                padding: 8px;
+                border-radius: 12px;
+                border-color: blueviolet;
+            }
+            select{
+                width: 200px;
+                padding: 8px;
+                border-radius: 12px;
+                border-color: blueviolet;
+                border:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="./home.html">HOME</a>
+        <a href="./table.html">TABLE</a>
+        <a href="./Contact.html">CONTACT</a>
+
+        <h1><u>CONTACT FORM</u></h1>
+
+        <form>
+
+            <label for="">Name :</label>
+            <br>
+            <input type="text" placeholder="Enter Your Name">
+
+            <br><br>
+            <label for="">Date of Birth :</label>
+            <br>
+            <input type="date">
+            
+            <br><br>
+            <label for="">Email :</label>
+            <br>
+            <input type="Email" placeholder="Enter Your Email">
+
+            <br><br>
+            <label for="">Password :</label>
+            <br>
+            <input type="password" placeholder="Enter Your Password">
+            
+            <br><br>
+            <label for="">Place of Birth :</label>
+            <br>
+            <select name="" id="">
+                <option value="" disabled selected>Choose</option>
+                <option value="Phnom Penh">Phnom Penh</option>
+                <option value="Battambong">BBT</option>
+                <option value="Sihanuk Ville">SHK</option>
+                <option value="Siem Reap">SR</option>
+                <option value="Kompong Cham">KPC</option>
+            </select>
+
+            <br><br>
+            <button type="submit" onclick="alert('Thank you!')">Submit</button>
+
+
+        </form>
+    </body>
+</html>
