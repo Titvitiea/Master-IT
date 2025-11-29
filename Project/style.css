@@ -94,19 +94,23 @@ a{
 }
 .flex-x3 .flex-item img{
     justify-content: center;
-    height: 200px;
+    height: 300px;
     width: 400px;
     object-fit: contain;
 }
 .flex-x4{
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 
 }
 .flex-x4 .flex-item{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: start;
     justify-content: center;
 }
 .flex-x4 .flex-item img{
