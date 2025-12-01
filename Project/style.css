@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Kantumruy Pro','Poppins' sans-serif,;
     font-size: 18px;
 
 }
@@ -114,12 +114,16 @@ a{
     justify-content: center;
     width: 25%;
     margin: 0 auto;
+    transition: transform 0.5s;
 }
 .flex-x4 .flex-item img{
     justify-content: center;
     height: 200px;
     width: auto;
     object-fit: contain;
+}
+.flex-x4 .flex-item:hover {
+    transform: translateY(-5px);
 }
 .container .featured-section{
     margin-top: 50px;
@@ -131,3 +135,17 @@ a{
     margin-bottom: 20px;
     text-align: center;
 }
+.fa-star{
+    color: #ff523b;
+}
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20x;
+    background-color: #333;
+    color: #ffffff;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+}   
