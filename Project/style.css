@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Kantumruy Pro','Poppins' sans-serif,;
+    font-family: "Kantumruy Pro", sans-serif;
     font-size: 18px;
 
 }
+
 .container {
     width: 1200px;
     margin: 0 auto;
